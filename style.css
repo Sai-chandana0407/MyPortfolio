@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.home{
+    background:rgb(32, 32, 35);
+    display:flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+}
+.home h1{
+   color:white;
+   padding:10px;
+}
+.home button 
+{   height:10%;
+    border-radius:20px;
+    padding:10px;
+}
+.home button a{
+    text-decoration:none;
+}
+
+.list a:hover
+{
+    color:blue;
+}
+.list{
+    text-align:end;
+}
+.list li{
+    height:10%;
+    list-style-type:none;
+    display:inline;
+    padding-left:10px;
+    margin:20px;
+    border-radius:30px;
+}
+.list li a{
+    text-decoration: none;
+    color:white;
+    padding:20px;
+    text-align:center;
+    margin:10px;
+}
+.about
+{   
+    display:flex;
+    background-color: antiquewhite;
+}
+.left{
+    margin:40px;   
+    padding-right:20px;
+}
+.left h2{
+    padding:20px;
+}
+.left p{
+    line-height:1.5;
+}
+.left button{
+    border:none;
+    background-color:none;
+    color:blue;
+}
+.right{
+    margin:20px;
+}
+.right img{
+    border-radius:150px;
+}
+p label
+{
+    display:inline;
+    color:blue;
+}
+.Education
+{
+    margin:40px;
+}
+.Education p{
+    line-height:1.5;
+}
+.Education ul{
+    padding:10px;
+}
+.skills li{
+    text-decoration:none;
+    display:inline;
+    padding:30px;
+}
+h3{
+    margin:20px;
+    padding-top: 20px;;
+}
+/* .h3:hover
+{
+    color:blue;
+} */
+.skills
+{   
+    margin:40px;
+}
+.weblang li img{
+    margin:30px;
+}
+.weblang li img:hover
+{
+    transform:rotate(30deg);
+    animation-iteration-count: infinite;
+}
+#html{
+   padding-left:83px;
+    
+}
+#css{
+    padding-left:150px;
+    
+}
+#js
+{
+    padding-left:110px;
+}
+.prgrmlang li img
+{   margin:20px;
+}
+.prgrmlang li img:hover
+{
+    transform:rotate(30deg);
+    animation-iteration-count: infinite;
+}
+#c{
+    padding-left:70px;
+    
+ }
+#java{
+     padding-left:125px;
+  
+ }
+#python
+ {
+     padding-left:100px;
+ }
+ .project
+{
+    margin:40px;
+}
+.project ul{
+    line-height:1.5;
+}
+.contact{
+    margin:40px;
+}
+.contact p
+{   
+    line-height:1.5;
+    text-decoration: none;
+}
+#cpyrgt 
+{
+    text-align:center;
+    background-color:black;
+    color:white;
+    line-height:3;
+}
